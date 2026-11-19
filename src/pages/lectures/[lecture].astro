@@ -5,7 +5,7 @@ import PageLayout from '../../layouts/PageLayout.astro';
 import { sortItemsByDateDesc } from '../../utils/data-utils';
 
 export async function getStaticPaths() {
-    const lectures = (await getCollection('lectures')).sort(sortItemsByDateDesc);
+    const lectures = (await getCollection('lectures')).filter((lecture) => !lecture.data.draft).sort(sortItemsByDateDesc);
 
     return lectures.map((lecture) => ({
         params: { lecture: lecture.id },
@@ -20,7 +20,7 @@ type Props = {
 };
 
 const { lecture } = Astro.props;
-const { title, publishDate,seo } = lecture.data;
+const { title, publishDate, seo } = lecture.data;
 const { Content } = await render(lecture);
 ---
 

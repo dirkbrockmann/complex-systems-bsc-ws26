@@ -15,24 +15,24 @@
   },
   "lecture": {
     "name": "K0500-31W20xV - Introduction to Complex Systems (V)",
-    "start": "Monday, Nov. 24th, 2025",
-    "end": "Tuesday, Jan. 13th, 2026",
+    "start": "Monday, Nov. 23rd, 2026",
+    "end": "Tuesday, Jan. 12th, 2027",
     "sessions": 12,
     "days": "Mondays & Tuesdays",
-    "time": "18:30 - 20:00"
+    "time": "16:40 - 18:10"
   },
   "seminar": {
     "name": "K0500-31W20xS - Introduction to Complex Systems (S)",
-    "start": "Wednesday, Nov. 26th, 2025",
-    "end": "Thursday, Jan. 15th, 2026",
+    "start": "Wednesday, Nov. 25th, 2026",
+    "end": "Thursday, Jan. 14th, 2027",
     "sessions": 12,
     "days": "Wednesdays & Thursdays",
-    "time": "18:30 - 20:00"
+    "time": "14:50 - 16:20"
   },
   "lab": {
     "name": "K0500-31W20xP Introduction to Complex Systems (P)",
-    "start": "Monday, Jan. 5th, 2026",
-    "end": "Thursday, Jan. 15th, 2026",
+    "start": "Monday, Jan. 4th, 2027",
+    "end": "Thursday, Jan. 14th, 2027",
     "sessions": 8,
     "days": "Mon., Tue., Wed., Thu.",
     "time": "10:00 - 17:00"

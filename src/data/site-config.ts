@@ -63,7 +63,7 @@ const siteConfig: SiteConfig = {
         alt: 'SynoSys (Dark)'
     },
     website: 'https://dirkbrockmann.github.io/',
-    base: '/complex-systems-bsc-ws25/',
+    base: '/complex-systems-bsc-ws26/',
     title: 'Introduction to Complex Systems',
     email: courseConfig.email,
     author: {
@@ -74,7 +74,7 @@ const siteConfig: SiteConfig = {
         },
         url: 'https://synosys.github.io'
     },
-    subtitle: 'Module M0500-31W20, WiSe 2025/26',
+    subtitle: 'Module M0500-31W20, WiSe 2026/27',
     description: '',
     image: {
         src: complexityImg.src,

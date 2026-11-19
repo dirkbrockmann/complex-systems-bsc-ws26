@@ -17,6 +17,7 @@ const pages = defineCollection({
     loader: glob({pattern: '**/*.{md,mdx}', base: './src/content/pages'}),
     schema: z.object({
         title: z.string(),
+        draft: z.boolean().optional(),
         seo: seoSchema.optional(),
         showHeader: z.boolean().default(false),
     })
@@ -40,6 +41,7 @@ const blog = defineCollection({
         description: z.string().optional(),
         publishDate: z.coerce.date(),
         updatedDate: z.coerce.date().optional(),
+        draft: z.boolean().optional(),
         tags: z.array(z.string()).default([]),
         seo: seoSchema.optional()
     })

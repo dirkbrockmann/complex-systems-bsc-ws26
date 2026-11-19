@@ -5,7 +5,7 @@ import PageLayout from '../../layouts/PageLayout.astro';
 import { sortItemsByDateDesc } from '../../utils/data-utils';
 
 export async function getStaticPaths() {
-    const posts = (await getCollection('exam')).sort(sortItemsByDateDesc);
+    const posts = (await getCollection('exam')).filter((post) => !post.data.draft).sort(sortItemsByDateDesc);
 
     return posts.map((post) => ({
         params: { id: post.id },

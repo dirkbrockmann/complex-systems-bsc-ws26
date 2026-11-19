@@ -5,7 +5,7 @@ import PageLayout from '../../layouts/PageLayout.astro';
 import { sortItemsByDateDesc } from '../../utils/data-utils';
 
 export async function getStaticPaths() {
-    const tutorials = (await getCollection('tutorials')).sort(sortItemsByDateDesc);
+    const tutorials = (await getCollection('tutorials')).filter((tutorial) => !tutorial.data.draft).sort(sortItemsByDateDesc);
 
     return tutorials.map((tutorial) => ({
         params: { id: tutorial.id },
