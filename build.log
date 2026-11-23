@@ -1,0 +1,964 @@
+
+> build
+> astro build
+
+20:47:43 [content] Syncing content
+20:47:43 [content] Synced content
+20:47:43 [types] Generated 183ms
+20:47:43 [build] output: "static"
+20:47:43 [build] mode: "static"
+20:47:43 [build] directory: /Users/zwerg/Vorlesungen/complex-systems-bsc-ws26/complex-systems-bsc-ws262/dist/
+20:47:43 [build] Collecting build info...
+20:47:43 [build] ✓ Completed in 195ms.
+20:47:43 [build] Building static entrypoints...
+20:47:46 [build] Waiting for integration "generate-dark-images", hook "astro:build:setup"...
+20:47:52 [WARN] [vite] "matchHostname", "matchPathname", "matchPort" and "matchProtocol" are imported from external module "@astrojs/internal-helpers/remote" but never used in "node_modules/astro/dist/assets/utils/remotePattern.js" and "node_modules/astro/dist/assets/services/service.js".
+20:47:52 [WARN] [vite] "sortBy" is imported from external module "lodash-es" but never used in "src/content/figures/logistic-map/figure7/index.jsx", "src/content/figures/assignment3/figure1/index.jsx", "src/content/figures/kuramoto-model/figure1/index.jsx", "src/content/figures/kuramoto-model/figure2/index.jsx", "src/content/figures/stochastic-processes/figure1/index.jsx", "src/content/figures/kuramoto-model/figure3/index.jsx", "src/content/figures/stochastic-processes/figure2/index.jsx", "src/content/figures/stochastic-processes/figure4/index.jsx", "src/content/figures/stochastic-processes/figure5/index.jsx", "src/content/figures/stochastic-processes/figure6/index.jsx", "src/content/figures/logistic-map/figure1/index.jsx", "src/content/figures/logistic-map/figure3/index.jsx", "src/content/figures/logistic-map/figure5/index.jsx", "src/content/figures/logistic-map/figure2/index.jsx", "src/content/figures/logistic-map/figure6/index.jsx", "src/content/figures/logistic-map/figure4/index.jsx", "src/content/figures/1-dimensional-dynamical-systems/figure1/index.jsx", "src/content/figures/1-dimensional-dynamical-systems/figure2/index.jsx", "src/content/figures/1-dimensional-dynamical-systems/figure3/index.jsx", "src/content/figures/1-dimensional-dynamical-systems/figure4/index.jsx", "src/content/figures/1-dimensional-dynamical-systems/figure5/index.jsx", "src/content/figures/1-dimensional-dynamical-systems/figure6/index.jsx", "src/content/figures/pattern-formation/voter-majority/index.jsx", "src/content/figures/pattern-formation/ising/utils.js", "src/content/figures/pattern-formation/ising/index.jsx", "src/content/figures/pattern-formation/birthdeath/utils.js", "src/content/figures/pattern-formation/birthdeath/index.jsx", "src/content/figures/logistic-map/figure3a/index.jsx", "src/content/figures/critical-phenomena/figure3/index.jsx", "src/content/figures/critical-phenomena/figure7/index.jsx", "src/content/figures/critical-phenomena/figure5/index.jsx", "src/content/figures/critical-phenomena/figure6/index.jsx", "src/content/figures/critical-phenomena/figure4/index.jsx", "src/content/figures/critical-phenomena/figure8/utils.js", "src/content/figures/critical-phenomena/figure8/index.jsx", "src/content/figures/critical-phenomena/figure2/utils.js", "src/content/figures/critical-phenomena/figure2/index.jsx", "src/content/figures/critical-phenomena/figure1/utils.js", "src/content/figures/critical-phenomena/figure1/index.jsx", "src/content/figures/pattern-formation/fisher/utils.js", "src/content/figures/pattern-formation/fisher/index.jsx", "src/content/figures/networks/sirs-flockworks/index.jsx", "src/content/figures/pattern-formation/schnakenberg/utils.js", "src/content/figures/pattern-formation/schnakenberg/index.jsx", "src/content/figures/pattern-formation/mixing/index.jsx", "src/content/figures/pattern-formation/particles-in-a-box/index.jsx", "src/content/figures/pattern-formation/reaction-diffusion/index.jsx", "src/content/figures/pattern-formation/cloud/index.jsx", "src/content/figures/pattern-formation/gaussian/index.jsx" and "src/content/figures/networks/dolphins/index.jsx".
+20:47:52 [WARN] [vite] Generated an empty chunk: "styles_module.14e3a293".
+20:47:52 [WARN] [vite] Generated an empty chunk: "styles_module.161e5f78".
+20:47:52 [WARN] [vite] Generated an empty chunk: "styles_module.42499d5a".
+20:47:52 [WARN] [vite] Generated an empty chunk: "styles_module.6460bc81".
+20:47:52 [WARN] [vite] Generated an empty chunk: "styles_module.7c134821".
+20:47:52 [WARN] [vite] Generated an empty chunk: "styles_module.a8a2ab45".
+20:47:52 [WARN] [vite] Generated an empty chunk: "styles_module.b0987486".
+20:47:52 [WARN] [vite] Generated an empty chunk: "styles_module.b2f2cced".
+20:47:52 [vite] ✓ built in 4.56s
+20:47:52 [build] ✓ Completed in 9.72s.
+
+ building client (vite) 
+20:47:55 [build] Waiting for integration "generate-dark-images", hook "astro:build:setup"...
+20:47:58 [vite] transforming...
+20:48:02 [vite] ✓ 1435 modules transformed.
+20:48:02 [WARN] [vite] Generated an empty chunk: "styles_module.14e3a293".
+20:48:02 [WARN] [vite] Generated an empty chunk: "styles_module.161e5f78".
+20:48:02 [WARN] [vite] Generated an empty chunk: "styles_module.42499d5a".
+20:48:02 [WARN] [vite] Generated an empty chunk: "styles_module.6460bc81".
+20:48:02 [WARN] [vite] Generated an empty chunk: "styles_module.7c134821".
+20:48:02 [WARN] [vite] Generated an empty chunk: "styles_module.a8a2ab45".
+20:48:02 [WARN] [vite] Generated an empty chunk: "styles_module.b0987486".
+20:48:02 [WARN] [vite] Generated an empty chunk: "styles_module.b2f2cced".
+20:48:03 [vite] rendering chunks...
+20:48:03 [vite] computing gzip size...
+20:48:03 [vite] dist/_astro/styles_module.tn0RQdqM.css            0.00 kB │ gzip:   0.02 kB
+20:48:03 [vite] dist/_astro/styles_module.BRXV6FS0.css            0.03 kB │ gzip:   0.05 kB
+20:48:03 [vite] dist/_astro/styles_module.0o_mSbP4.css            0.09 kB │ gzip:   0.09 kB
+20:48:03 [vite] dist/_astro/styles_module.BXzx53um.css            0.16 kB │ gzip:   0.13 kB
+20:48:03 [vite] dist/_astro/styles_module.BQF12oAo.css            0.19 kB │ gzip:   0.14 kB
+20:48:03 [vite] dist/_astro/styles_module.mVNuHs4q.css            0.22 kB │ gzip:   0.16 kB
+20:48:03 [vite] dist/_astro/styles_module.B_v-kjoF.css            0.23 kB │ gzip:   0.15 kB
+20:48:03 [vite] dist/_astro/styles_module.Bq1Mjwnz.css            0.24 kB │ gzip:   0.18 kB
+20:48:03 [vite] dist/_astro/styles_module.C2JpesVJ.css            0.28 kB │ gzip:   0.21 kB
+20:48:03 [vite] dist/_astro/styles_module.CWaTnwHV.css            0.33 kB │ gzip:   0.20 kB
+20:48:03 [vite] dist/_astro/styles_module.C260Kges.css            0.33 kB │ gzip:   0.20 kB
+20:48:03 [vite] dist/_astro/styles_module.DbZDa7k_.css            0.35 kB │ gzip:   0.22 kB
+20:48:03 [vite] dist/_astro/styles_module.BPsVMzD2.css            0.37 kB │ gzip:   0.23 kB
+20:48:03 [vite] dist/_astro/styles_module.DxuTBGVd.css            0.37 kB │ gzip:   0.23 kB
+20:48:03 [vite] dist/_astro/styles_module.Cg0RKwAK.css            0.44 kB │ gzip:   0.24 kB
+20:48:03 [vite] dist/_astro/styles_module.DgtkC1nH.css            0.48 kB │ gzip:   0.23 kB
+20:48:03 [vite] dist/_astro/styles_module.BPvDGprh.css            0.50 kB │ gzip:   0.27 kB
+20:48:03 [vite] dist/_astro/styles_module.C34Qqj-q.css            0.50 kB │ gzip:   0.25 kB
+20:48:03 [vite] dist/_astro/styles_module.r4BCod2y.css            0.57 kB │ gzip:   0.26 kB
+20:48:03 [vite] dist/_astro/styles_module.BX4zdfbb.css            0.58 kB │ gzip:   0.29 kB
+20:48:03 [vite] dist/_astro/styles_module.D-FpVzLO.css            0.58 kB │ gzip:   0.29 kB
+20:48:03 [vite] dist/_astro/styles_module.Bp1XdTs6.css            0.73 kB │ gzip:   0.32 kB
+20:48:03 [vite] dist/_astro/styles_module.BuUmjIRy.css            0.73 kB │ gzip:   0.32 kB
+20:48:03 [vite] dist/_astro/styles_module.DPoInhv0.css            0.73 kB │ gzip:   0.31 kB
+20:48:03 [vite] dist/_astro/styles_module.BqPli1dZ.css            0.74 kB │ gzip:   0.32 kB
+20:48:03 [vite] dist/_astro/styles_module.14e3a293.B-qD8kLz.js    0.00 kB │ gzip:   0.02 kB
+20:48:03 [vite] dist/_astro/styles_module.161e5f78.B-qD8kLz.js    0.00 kB │ gzip:   0.02 kB
+20:48:03 [vite] dist/_astro/styles_module.42499d5a.B-qD8kLz.js    0.00 kB │ gzip:   0.02 kB
+20:48:03 [vite] dist/_astro/styles_module.6460bc81.B-qD8kLz.js    0.00 kB │ gzip:   0.02 kB
+20:48:03 [vite] dist/_astro/styles_module.7c134821.B-qD8kLz.js    0.00 kB │ gzip:   0.02 kB
+20:48:03 [vite] dist/_astro/styles_module.a8a2ab45.B-qD8kLz.js    0.00 kB │ gzip:   0.02 kB
+20:48:03 [vite] dist/_astro/styles_module.b0987486.B-qD8kLz.js    0.00 kB │ gzip:   0.02 kB
+20:48:03 [vite] dist/_astro/styles_module.b2f2cced.B-qD8kLz.js    0.00 kB │ gzip:   0.02 kB
+20:48:03 [vite] dist/_astro/styles_module.3caa9ac1.wKMOrjUs.js    0.05 kB │ gzip:   0.07 kB
+20:48:03 [vite] dist/_astro/styles_module.4f584a82.wKMOrjUs.js    0.05 kB │ gzip:   0.07 kB
+20:48:03 [vite] dist/_astro/styles_module.d133ee33.wKMOrjUs.js    0.05 kB │ gzip:   0.07 kB
+20:48:03 [vite] dist/_astro/styles_module.578ca2c5.BJXQR6Ys.js    0.05 kB │ gzip:   0.07 kB
+20:48:03 [vite] dist/_astro/styles_module.918cbb6e.BJXQR6Ys.js    0.05 kB │ gzip:   0.07 kB
+20:48:03 [vite] dist/_astro/styles_module.c7efca27.D7X-6SCF.js    0.05 kB │ gzip:   0.07 kB
+20:48:03 [vite] dist/_astro/styles_module.06989890.e-5HyNGc.js    0.06 kB │ gzip:   0.07 kB
+20:48:03 [vite] dist/_astro/last.DXTTfs9a.js                      0.07 kB │ gzip:   0.09 kB
+20:48:03 [vite] dist/_astro/styles_module.4938d03e.njoTVDCa.js    0.09 kB │ gzip:   0.09 kB
+20:48:03 [vite] dist/_astro/styles_module.f3dabefd.njoTVDCa.js    0.09 kB │ gzip:   0.09 kB
+20:48:03 [vite] dist/_astro/styles_module.ebef56a5.C3zMdDge.js    0.09 kB │ gzip:   0.10 kB
+20:48:03 [vite] dist/_astro/styles_module.cd834ef1.BTNyYrcH.js    0.11 kB │ gzip:   0.11 kB
+20:48:03 [vite] dist/_astro/styles_module.dc4ac588.BTNyYrcH.js    0.11 kB │ gzip:   0.11 kB
+20:48:03 [vite] dist/_astro/styles_module.958d8399.Bc6uiALE.js    0.11 kB │ gzip:   0.11 kB
+20:48:03 [vite] dist/_astro/styles_module.b6769e26.Bc6uiALE.js    0.11 kB │ gzip:   0.11 kB
+20:48:03 [vite] dist/_astro/styles_module.f5dab7ee.CCgU7-ar.js    0.11 kB │ gzip:   0.11 kB
+20:48:03 [vite] dist/_astro/toInteger.BzWmhOs1.js                 0.11 kB │ gzip:   0.13 kB
+20:48:03 [vite] dist/_astro/_baseSum.Cz9yialR.js                  0.12 kB │ gzip:   0.13 kB
+20:48:03 [vite] dist/_astro/styles_module.4ad8374f.5t54mrWd.js    0.14 kB │ gzip:   0.12 kB
+20:48:03 [vite] dist/_astro/sumBy.7vAzl3dd.js                     0.14 kB │ gzip:   0.14 kB
+20:48:03 [vite] dist/_astro/styles_module.99b25ffd.D9rh24pd.js    0.17 kB │ gzip:   0.13 kB
+20:48:03 [vite] dist/_astro/styles_module.1a17e331.zTkCgNn0.js    0.18 kB │ gzip:   0.14 kB
+20:48:03 [vite] dist/_astro/styles_module.8a40906c.CjxZWa1q.js    0.18 kB │ gzip:   0.14 kB
+20:48:03 [vite] dist/_astro/styles_module.d9f2271a.DrmNZLYN.js    0.18 kB │ gzip:   0.14 kB
+20:48:03 [vite] dist/_astro/range.OtVwhkKS.js                     0.18 kB │ gzip:   0.17 kB
+20:48:03 [vite] dist/_astro/styles_module.29ee69ca.CLv5p7xd.js    0.18 kB │ gzip:   0.14 kB
+20:48:03 [vite] dist/_astro/styles_module.55f3f1ba.gS_MDhJz.js    0.18 kB │ gzip:   0.14 kB
+20:48:03 [vite] dist/_astro/styles_module.a7986ed4.CLv5p7xd.js    0.18 kB │ gzip:   0.14 kB
+20:48:03 [vite] dist/_astro/styles_module.b5ba5b6e.xRx7lsKr.js    0.19 kB │ gzip:   0.14 kB
+20:48:03 [vite] dist/_astro/max.DBeXZoyG.js                       0.20 kB │ gzip:   0.16 kB
+20:48:03 [vite] dist/_astro/meanBy.fxTqaGr0.js                    0.20 kB │ gzip:   0.17 kB
+20:48:03 [vite] dist/_astro/shuffle.DjCNGHfl.js                   0.22 kB │ gzip:   0.17 kB
+20:48:03 [vite] dist/_astro/styles_module.1cbb2474.z71r09tw.js    0.23 kB │ gzip:   0.16 kB
+20:48:03 [vite] dist/_astro/filter.CizAxBcA.js                    0.24 kB │ gzip:   0.19 kB
+20:48:03 [vite] dist/_astro/sample.fVlH5J43.js                    0.24 kB │ gzip:   0.19 kB
+20:48:03 [vite] dist/_astro/styles_module.187ea268.1crYGNGf.js    0.25 kB │ gzip:   0.17 kB
+20:48:03 [vite] dist/_astro/normal.ulaXCRiq.js                    0.27 kB │ gzip:   0.20 kB
+20:48:03 [vite] dist/_astro/forEach.CXm3ea2N.js                   0.28 kB │ gzip:   0.22 kB
+20:48:03 [vite] dist/_astro/styles_module.1e993182.CGzDwHBT.js    0.30 kB │ gzip:   0.19 kB
+20:48:03 [vite] dist/_astro/styles_module.9038b685.C50XFCOE.js    0.30 kB │ gzip:   0.18 kB
+20:48:03 [vite] dist/_astro/styles_module.329d2593.D5G_qjTE.js    0.31 kB │ gzip:   0.20 kB
+20:48:03 [vite] dist/_astro/styles_module.37fcf5a4.Cna9ogPo.js    0.31 kB │ gzip:   0.19 kB
+20:48:03 [vite] dist/_astro/styles_module.56a32122.Cna9ogPo.js    0.31 kB │ gzip:   0.19 kB
+20:48:03 [vite] dist/_astro/styles_module.5c6bd134.Cna9ogPo.js    0.31 kB │ gzip:   0.19 kB
+20:48:03 [vite] dist/_astro/styles_module.d45903b7.Cna9ogPo.js    0.31 kB │ gzip:   0.19 kB
+20:48:03 [vite] dist/_astro/styles_module.dd1cfdc1.Cna9ogPo.js    0.31 kB │ gzip:   0.19 kB
+20:48:03 [vite] dist/_astro/styles_module.6c92d387.D0Z60Xxr.js    0.34 kB │ gzip:   0.21 kB
+20:48:03 [vite] dist/_astro/styles_module.7497211a.BCEOcCAL.js    0.34 kB │ gzip:   0.21 kB
+20:48:03 [vite] dist/_astro/sampleSize.Dyb44yF4.js                0.41 kB │ gzip:   0.27 kB
+20:48:03 [vite] dist/_astro/round.BtTOv65d.js                     0.41 kB │ gzip:   0.28 kB
+20:48:03 [vite] dist/_astro/pointer.Drloq0xg.js                   0.45 kB │ gzip:   0.29 kB
+20:48:03 [vite] dist/_astro/_shuffleSelf.EHsdj1IC.js              0.49 kB │ gzip:   0.31 kB
+20:48:03 [vite] dist/_astro/index.DeNF5kY-.js                     0.50 kB │ gzip:   0.33 kB
+20:48:03 [vite] dist/_astro/index.D4b_xRJr.js                     0.54 kB │ gzip:   0.35 kB
+20:48:03 [vite] dist/_astro/math-utils.C3tq9Lrf.js                0.57 kB │ gzip:   0.39 kB
+20:48:03 [vite] dist/_astro/range.DRkyQb2E.js                     0.57 kB │ gzip:   0.38 kB
+20:48:03 [vite] dist/_astro/toFinite.fN_7JvQ3.js                  0.69 kB │ gzip:   0.44 kB
+20:48:03 [vite] dist/_astro/index.Df-FHROO.js                     0.79 kB │ gzip:   0.43 kB
+20:48:03 [vite] dist/_astro/index.BoJ-cajp.js                     0.99 kB │ gzip:   0.48 kB
+20:48:03 [vite] dist/_astro/ordinal.CXmj_2wL.js                   1.19 kB │ gzip:   0.57 kB
+20:48:03 [vite] dist/_astro/toString.mwmtGKEg.js                  1.20 kB │ gzip:   0.58 kB
+20:48:03 [vite] dist/_astro/axis.D3QohQNI.js                      2.67 kB │ gzip:   1.12 kB
+20:48:03 [vite] dist/_astro/index.DO56eUsS.js                     2.67 kB │ gzip:   1.18 kB
+20:48:03 [vite] dist/_astro/square_simple.DjiTmY5r.js             2.77 kB │ gzip:   1.30 kB
+20:48:03 [vite] dist/_astro/index.BkacO3ux.js                     3.14 kB │ gzip:   1.36 kB
+20:48:03 [vite] dist/_astro/index.DBJ8n92j.js                     3.17 kB │ gzip:   1.35 kB
+20:48:03 [vite] dist/_astro/index.DIgg1CyM.js                     3.38 kB │ gzip:   1.43 kB
+20:48:03 [vite] dist/_astro/index.C34HsGo-.js                     3.38 kB │ gzip:   1.43 kB
+20:48:03 [vite] dist/_astro/index.B1_Od5Qi.js                     3.41 kB │ gzip:   1.47 kB
+20:48:03 [vite] dist/_astro/index.BTMNe1gF.js                     3.43 kB │ gzip:   1.57 kB
+20:48:03 [vite] dist/_astro/index.BIU-DL3I.js                     3.48 kB │ gzip:   1.44 kB
+20:48:03 [vite] dist/_astro/index.wbz0M5xO.js                     3.51 kB │ gzip:   1.59 kB
+20:48:03 [vite] dist/_astro/index.DJVkgUJx.js                     3.56 kB │ gzip:   1.61 kB
+20:48:03 [vite] dist/_astro/index.D6KOxiWP.js                     3.56 kB │ gzip:   1.49 kB
+20:48:03 [vite] dist/_astro/index.DQZZx9x3.js                     3.64 kB │ gzip:   1.67 kB
+20:48:03 [vite] dist/_astro/line.CjWAwAWE.js                      3.65 kB │ gzip:   1.48 kB
+20:48:03 [vite] dist/_astro/index.DBJ4nufi.js                     3.73 kB │ gzip:   1.64 kB
+20:48:03 [vite] dist/_astro/index.DAIu-x9s.js                     3.89 kB │ gzip:   1.66 kB
+20:48:03 [vite] dist/_astro/index.bSUWfSL7.js                     3.89 kB │ gzip:   1.68 kB
+20:48:03 [vite] dist/_astro/index.VlNu-W-y.js                     3.90 kB │ gzip:   1.67 kB
+20:48:03 [vite] dist/_astro/colors.Bhskx7O8.js                    4.10 kB │ gzip:   1.69 kB
+20:48:03 [vite] dist/_astro/index._h_N3vVk.js                     4.16 kB │ gzip:   1.71 kB
+20:48:03 [vite] dist/_astro/index.iQLSPNfr.js                     4.19 kB │ gzip:   1.73 kB
+20:48:03 [vite] dist/_astro/index.CKnwi5Yw.js                     4.23 kB │ gzip:   1.61 kB
+20:48:03 [vite] dist/_astro/index.oVvyMPHF.js                     4.26 kB │ gzip:   1.62 kB
+20:48:03 [vite] dist/_astro/index.DBdiKx03.js                     4.26 kB │ gzip:   1.62 kB
+20:48:03 [vite] dist/_astro/index.CC7mUDCe.js                     4.28 kB │ gzip:   1.75 kB
+20:48:03 [vite] dist/_astro/index.BxLLnt0E.js                     4.38 kB │ gzip:   1.91 kB
+20:48:03 [vite] dist/_astro/index.C2yhcNYp.js                     4.44 kB │ gzip:   1.83 kB
+20:48:03 [vite] dist/_astro/index.DBIj9saa.js                     4.44 kB │ gzip:   1.79 kB
+20:48:03 [vite] dist/_astro/index.BORZW3cq.js                     4.46 kB │ gzip:   1.81 kB
+20:48:03 [vite] dist/_astro/defaultLocale.D2nGpDRe.js             4.55 kB │ gzip:   2.13 kB
+20:48:03 [vite] dist/_astro/index.DAdhfjvJ.js                     4.61 kB │ gzip:   1.95 kB
+20:48:03 [vite] dist/_astro/index.9DwPiWd_.js                     4.66 kB │ gzip:   1.98 kB
+20:48:03 [vite] dist/_astro/index.Dh6yzbtu.js                     4.68 kB │ gzip:   1.83 kB
+20:48:03 [vite] dist/_astro/index.BTniwk08.js                     5.00 kB │ gzip:   2.08 kB
+20:48:03 [vite] dist/_astro/index.BBaxMq8S.js                     5.19 kB │ gzip:   2.02 kB
+20:48:03 [vite] dist/_astro/index.CpHf73fc.js                     5.22 kB │ gzip:   1.82 kB
+20:48:03 [vite] dist/_astro/index.ZoY9veNj.js                     5.23 kB │ gzip:   1.83 kB
+20:48:03 [vite] dist/_astro/index.CxDVbIP4.js                     5.43 kB │ gzip:   2.13 kB
+20:48:03 [vite] dist/_astro/index.Bgr87ROI.js                     5.49 kB │ gzip:   2.06 kB
+20:48:03 [vite] dist/_astro/index.D4yji0Qo.js                     5.56 kB │ gzip:   2.14 kB
+20:48:03 [vite] dist/_astro/index.e0gMyysi.js                     5.64 kB │ gzip:   2.18 kB
+20:48:03 [vite] dist/_astro/index.DZ1pPcRX.js                     5.66 kB │ gzip:   2.19 kB
+20:48:03 [vite] dist/_astro/index.DwCCzp3Z.js                     5.67 kB │ gzip:   2.19 kB
+20:48:03 [vite] dist/_astro/linear.CCEp_mdt.js                    5.72 kB │ gzip:   2.31 kB
+20:48:03 [vite] dist/_astro/index.BVOCwoKb.js                     7.88 kB │ gzip:   3.05 kB
+20:48:03 [vite] dist/_astro/index.CZYN_DfE.js                     8.38 kB │ gzip:   2.75 kB
+20:48:03 [vite] dist/_astro/index.pHj1_Twb.js                     8.58 kB │ gzip:   2.80 kB
+20:48:03 [vite] dist/_astro/y.lTAFe1pU.js                        11.01 kB │ gzip:   4.13 kB
+20:48:03 [vite] dist/_astro/map.B3f9rLDZ.js                      13.99 kB │ gzip:   5.28 kB
+20:48:03 [vite] dist/_astro/index.BkR1Vnwp.js                    19.57 kB │ gzip:   4.29 kB
+20:48:03 [vite] dist/_astro/transform.DYHoL32j.js                38.33 kB │ gzip:  13.15 kB
+20:48:03 [vite] dist/_astro/index.es.CHXyhTJB.js                 87.39 kB │ gzip:  29.21 kB
+20:48:03 [vite] dist/_astro/index.BEmYWiSF.js                   164.28 kB │ gzip:  52.32 kB
+20:48:03 [vite] dist/_astro/index.B7dQqIH3.js                   165.71 kB │ gzip:  55.61 kB
+20:48:03 [vite] dist/_astro/index.Zv3ICG34.js                   168.29 kB │ gzip:  56.17 kB
+20:48:03 [vite] dist/_astro/index.B_Mdjk63.js                   168.86 kB │ gzip:  55.73 kB
+20:48:03 [vite] dist/_astro/index.DBLrrtPD.js                   169.69 kB │ gzip:  55.99 kB
+20:48:03 [vite] dist/_astro/index.DPyMiVNm.js                   170.37 kB │ gzip:  57.02 kB
+20:48:03 [vite] dist/_astro/index.CM4035t6.js                   172.83 kB │ gzip:  57.61 kB
+20:48:03 [vite] dist/_astro/index.CPbOtq9c.js                   172.96 kB │ gzip:  56.84 kB
+20:48:03 [vite] dist/_astro/index.DVPMSjOj.js                   173.53 kB │ gzip:  56.53 kB
+20:48:03 [vite] dist/_astro/index.C61MlChv.js                   174.90 kB │ gzip:  59.30 kB
+20:48:03 [vite] dist/_astro/index.U8X3oXl5.js                   175.64 kB │ gzip:  57.68 kB
+20:48:03 [vite] dist/_astro/index.BBaHQMS7.js                   175.65 kB │ gzip:  58.02 kB
+20:48:03 [vite] dist/_astro/index.es.iIxWe5T_.js                175.77 kB │ gzip:  60.49 kB
+20:48:03 [vite] dist/_astro/index.es.C5bGiVGR.js                177.89 kB │ gzip:  59.54 kB
+20:48:03 [vite] dist/_astro/client.BPIbHqJh.js                  179.41 kB │ gzip:  56.60 kB
+20:48:03 [vite] dist/_astro/index.DWlmvxGC.js                   179.81 kB │ gzip:  61.04 kB
+20:48:03 [vite] dist/_astro/index.gS4Cyuv2.js                   180.82 kB │ gzip:  60.20 kB
+20:48:03 [vite] dist/_astro/index.asUK75K9.js                   185.78 kB │ gzip:  62.00 kB
+20:48:03 [vite] dist/_astro/index.5KOaNu_L.js                   189.00 kB │ gzip:  64.88 kB
+20:48:03 [vite] dist/_astro/index.CA7xroQ-.js                   192.41 kB │ gzip:  66.00 kB
+20:48:03 [vite] dist/_astro/index.DsUx3n_d.js                   235.37 kB │ gzip: 104.56 kB
+20:48:03 [vite] dist/_astro/index.CHTlsL6U.js                   267.54 kB │ gzip:  78.54 kB
+20:48:03 [vite] dist/_astro/index.DKnnzC26.js                   434.17 kB │ gzip:  67.25 kB
+20:48:03 [vite] dist/_astro/index.D4hyv3pV.js                   669.12 kB │ gzip: 124.77 kB
+20:48:03 [WARN] [vite] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+20:48:03 [vite] ✓ built in 4.58s
+
+ generating static routes 
+20:48:03 ▶ src/pages/blog/[id].astro
+20:48:03   └─ /blog/post-1/index.html (+140ms) 
+20:48:03 ▶ src/pages/blog/index.astro
+20:48:03   └─ /blog/index.html (+3ms) 
+20:48:03 ▶ src/pages/exam/[id].astro
+20:48:03   ├─ /exam/exam-1/index.html (+17ms) 
+20:48:03   ├─ /exam/exam-3/index.html (+14ms) 
+20:48:03   └─ /exam/exam-2/index.html (+8ms) 
+20:48:03 ▶ src/pages/exam/index.astro
+20:48:03   └─ /exam/index.html (+2ms) 
+20:48:03 ▶ src/pages/lab/[id].astro
+20:48:03 ▶ src/pages/lab/index.astro
+20:48:03   └─ /lab/index.html (+2ms) 
+20:48:03 ▶ src/pages/lectures/[lecture]/slides/[slide].astro
+20:48:03   ├─ /lectures/lecture-1/slides/slide-10-seminar/index.html (+5ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-11-lab-course/index.html (+11ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-1-intro/index.html (+26ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-12-complicated/index.html (+3ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-13-rolling-die/index.html (+4ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-14-simple-pendulum-copy/index.html (+2ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-15-double-pendulum/index.html (+2ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-17-firefly/index.html (+4ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-16-swarm/index.html (+3ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-18-cars/index.html (+2ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-2-qr-website/index.html (+14ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-20-crises/index.html (+2ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-21-complexity/index.html (+2ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-22-cellphone/index.html (+4ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-19-hawking/index.html (+3ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-23-feynman-1/index.html (+2ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-24-feynman-2/index.html (+1ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-25-reductionism/index.html (+3ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-26-smiley/index.html (+1ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-27-picasso/index.html (+3ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-29-similarity/index.html (+2ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-28-simplicity/index.html (+1ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-3-contact-info/index.html (+2ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-31-swarm-model/index.html (+2ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-30-swarm/index.html (+3ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-33-dla/index.html (+9ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-32-flockn_roll/index.html (+3ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-34-assignment/index.html (+1ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-4-course-components/index.html (+1ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-5-word-cloud-1/index.html (+10ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-6-word-cloud-results-copy/index.html (+2ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-7-lecture/index.html (+3ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-8-explorables-1/index.html (+3ms) 
+20:48:03   ├─ /lectures/lecture-1/slides/slide-9-explorables-2/index.html (+12ms) 
+20:48:03   ├─ /lectures/lecture-2/slides/slide-1-logistic-map/index.html (+4ms) 
+20:48:03   ├─ /lectures/lecture-2/slides/slide-2-time-series/index.html (+140ms) 
+20:48:04   ├─ /lectures/lecture-2/slides/slide-3-cobwebbing/index.html (+7ms) 
+20:48:04   ├─ /lectures/lecture-2/slides/slide-4-bifurcationdiagram/index.html (+8ms) 
+20:48:04   ├─ /lectures/lecture-2/slides/slide-5-sensitivity/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-2/slides/slide-6-bifurcationdiagram-exponential/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-1-intro/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-10-small-world-2/index.html (+5ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-11-milgrams-experiment/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-12-small-world-4/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-13-2-hubs/index.htmlvariables: [
+  {
+    range: [ 0, 3 ],
+    default: 1,
+    id: 'link_width',
+    label: 'Link width'
+  },
+  {
+    range: [ 2, 30 ],
+    default: 10,
+    id: 'link_length',
+    label: 'Link length'
+  },
+  { range: [ 0, 10 ], default: 3, id: 'node_size', label: 'Node size' },
+  { range: [ 0, 1 ], default: 0.2, id: 'spring', label: 'Spring' },
+  { range: [ 0, 30 ], default: 10, id: 'charge', label: 'Charge' }
+]
+ (+14ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-13-the-blob/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-14-barabasi-paper/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-15-erdös-renyi/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-16-the-rich-get-richer/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-17-the-rich-get-richer-2/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-18-friendship-paradox/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-19-network-vaccination/index.html (+8ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-2-2-networks/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-2-dolphins/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-3-adjacency/index.html (+13ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-4-global-properties-1/index.html (+12ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-5-node-degree/index.html (+23ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-5-scientist-node-degree/index.html (+6ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-6-clustering-coeff/index.html (+8ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-7-betweenness/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-8-diameter/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-10/slides/slide-9-small-world/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-3/slides/slide-1-one-dimensional-dynsys/index.html (+7ms) 
+20:48:04   ├─ /lectures/lecture-3/slides/slide-2-annihalation/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-3/slides/slide-3-logistic-particles/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-3/slides/slide-4-fofx-analysis-logistic/index.html (+7ms) 
+20:48:04   ├─ /lectures/lecture-3/slides/slide-5-fofx-cubic-example/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-3/slides/slide-6-sis/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-3/slides/slide-7-fofx-sis/index.html (+5ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-1-intro/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-10-galaxy/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-11-solarsystem/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-12-earth/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-13-eels/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-14-arctic-tern/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-15-two-insects/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-16-magicicada/index.html (+5ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-17-firefly/index.html (+6ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-18-bees/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-19-pascal/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-1b-rolling-die/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-1c-swarm/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-2-word-cloud-1/index.html (+10ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-20-fish/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-1a-pendulum/index.html (+8ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-20a-pulsecoupled/index.html (+11ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-21-measles/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-22-nervecells/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-23-heartbeat/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-24-millenium-bridge/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-26-millenium-bridge-2/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-27-couplings/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-28-kuramoto/index.html (+8ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-3-word-cloud-results-copy/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-4-word-cloud-rhythm/index.html (+9ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-5-word-cloud-rhythm-results/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-25-millenium-bridge-1/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-6-metronomes/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-7-metronomes-video/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-8-huygens/index.html (+5ms) 
+20:48:04   ├─ /lectures/lecture-4/slides/slide-9-huygens-quote/index.html (+6ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-1-intro/index.html (+5ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-10-fishing/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-11-fishing-bifuractions/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-12-oup-phase/index.html (+5ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-13-oup-noise/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-14-sis-noise/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-15-fishing-noise/index.html (+5ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-16-sandpile/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-16a-covid/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-17-bak-sneppen/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-18-bak-book/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-19-sandpile/index.html (+7ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-2-sketches/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-20-powerlaw/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-21-powerlaw-species/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-22-powerlaw-terror/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-23-earthquakes/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-24-humans/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-25-punctuated/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-26-west-book/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-3-klaus/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-4-percolation/index.html (+12ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-5-ising/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-6-birth-death/index.html (+5ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-7-sis-simulation/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-8-sis-model/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-5/slides/slide-9-sis-bifurcations/index.html (+5ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-1-intro/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-10-ripples/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-11-morning-glory/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-12-morning-glory-1/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-13-fractals/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-14-pattern-formation-brain/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-15-ocular-dominance/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-16-orientation-maps/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-17-snails-shells/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-18-animal-coats/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-19-rayleigh-bernard/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-2-recap/index.html (+6ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-20-bz-1/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-21-bz-2/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-21a-pulsecoupled/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-22-dicty/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-23-embryogenesis/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-24-fruitfly-stripes/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-25-fruitfly-video/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-26-mouse-digits/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-26a-order-from-chaos/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-27-voter/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-27a-majority/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-27b-voter-majority/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-28-local-excitation-long-range-inhibition/index.html (+427ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-28a-ocular-dominance/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-28b-orientation-map/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-28c-xy/index.html (+12ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-3-pinwheels/index.html (+12ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-4-pulsecoupled/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-5-biological-patterns/index.html (+8ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-5a-biological-patterns/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-6-whale-1/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-7-whale-2/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-8-embryo/index.html (+2ms) 
+20:48:04   ├─ /lectures/lecture-6/slides/slide-9-static-dynamic/index.html (+1ms) 
+20:48:04   ├─ /lectures/lecture-7/slides/slide-1-intro/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-7/slides/slide-10-reaction-diffusion/index.html (+5ms) 
+20:48:04   ├─ /lectures/lecture-7/slides/slide-11-rock-paper-scissors/index.html (+12ms) 
+20:48:04   ├─ /lectures/lecture-7/slides/slide-12-schnakenberg/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-7/slides/slide-12a-schnakenberg/index.html (+5ms) 
+20:48:04   ├─ /lectures/lecture-7/slides/slide-13-schnakenberg/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-7/slides/slide-14-gray-scott/index.html[
+  {
+    type: 'radio',
+    id: [Function: id],
+    size: [Function: size],
+    buttonsize: [Function: buttonsize],
+    buttonpadding: [Function: buttonpadding],
+    orientation: [Function: orientation],
+    shape: [Function: shape],
+    position: [Function: position],
+    x: [Function: x],
+    y: [Function: y],
+    labelposition: [Function: labelposition],
+    fontsize: [Function: fontsize],
+    update: [Function: update],
+    choices: [Function: choices],
+    value: [Function: value],
+    click: [Function: click],
+    reset: [Function: reset]
+  },
+  {
+    type: 'radio',
+    id: [Function: id],
+    size: [Function: size],
+    buttonsize: [Function: buttonsize],
+    buttonpadding: [Function: buttonpadding],
+    orientation: [Function: orientation],
+    shape: [Function: shape],
+    position: [Function: position],
+    x: [Function: x],
+    y: [Function: y],
+    labelposition: [Function: labelposition],
+    fontsize: [Function: fontsize],
+    update: [Function: update],
+    choices: [Function: choices],
+    value: [Function: value],
+    click: [Function: click],
+    reset: [Function: reset]
+  }
+]
+ (+11ms) 
+20:48:04   ├─ /lectures/lecture-7/slides/slide-2-local-excitation-long-range-inhibition-copy/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-7/slides/slide-3-diffusion-in-a-box/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-7/slides/slide-4-mixing/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-7/slides/slide-4a-reaction-diffusion/index.html (+5ms) 
+20:48:04   ├─ /lectures/lecture-7/slides/slide-5-gaussian/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-7/slides/slide-6-gaussian-profile/index.html (+4ms) 
+20:48:04   ├─ /lectures/lecture-7/slides/slide-7-fisher-equation/index.html (+5ms) 
+20:48:04   ├─ /lectures/lecture-7/slides/slide-8-activator-inhibitor/index.html (+3ms) 
+20:48:04   ├─ /lectures/lecture-7/slides/slide-9-lotka-volterra/index.html (+11ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-1-intro/index.html (+3ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-10-brain/index.html (+3ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-11-foodweb/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-12-tripartite/index.html (+6ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-13-ppi-yeast/index.html (+6ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-14-diseasome-1/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-15-diseasome-2/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-16-diseasome-3/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-17-metabolic/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-18-homo-elegans/index.html (+4ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-19-regulatory-network/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-2-networks/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-20-regulatory-network-1/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-21-fungi-function/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-23-dolphin-experiment/index.html (+3ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-22-why/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-24-dolphins/index.html (+4ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-25-cell-phones/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-26-dtu-experiment/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-27-proximity/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-28-wheres-george/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-29-structure-dynamics/index.html (+5ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-3-network-science/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-30-network-basics/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-31-koenigsberg/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-32-network-types/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-33-trees/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-34-adjacency/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-4-linked/index.html (+3ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-5-wan/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-6-internet/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-7-facebook/index.html (+5ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-8-sunes-network/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/slide-9-dolphins/index.html (+4ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-1-intro/index.html (+3ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-10-scott/index.html (+5ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-11-scott-fungus/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-12-lichen/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-13-observations/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-14-eiffeltower/index.html (+5ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-15-dla/index.html (+4ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-16-scotts_world/index.html (+52ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-17-weeds_and_trees/index.html[
+  {
+    choices: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    default: 3,
+    id: 'presets',
+    label: 'Presets'
+  }
+]
+ (+9ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-18-images/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-19-dimensions/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-2-river-sattelite/index.html (+5ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-20-measuring-length/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-21-measuring-area/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-22-measuring-volume/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-22a-summary/index.html (+4ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-23-coast-of-uk/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-24-coast-of-uk-2/index.html (+4ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-24a-coast-of-uk-3/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-25-mandelbrot-paper/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-26-mandelbrot-book/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-27-mandelbrot-set-visual/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-28-mandelbrot-set/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-29-mandelbrot-set-zoom/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-3-river-sattelite-2/index.html (+4ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-30-back-to-the-coast-copy/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-31-koch/index.html (+3ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-32-koch-1/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-33-koch-2/index.html (+7ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-34-koch-3/index.html (+5ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-35-koch-4/index.html (+4ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-36-fractals/index.html (+7ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-4-tree-roads/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-6-cactus/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-7-romanesco/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-7a-nautilus/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-8-fern/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/slide-9-bacterial-growth/index.html (+3ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-1-intro/index.html (+3ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-10-into-the-dark/index.html (+8ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-11-people-in-circle/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-12-pedastrians-experiment/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-13-berlin-8am/index.htmldata:image/png;base64,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
+ (+8ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-14-obstacle/index.html (+3ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-15-phantom-stau-1/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-16-phantom-stau-2/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-17-bacterial-colonies-1/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-18-bacterial-colonies-2/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-19-army-ants-1/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-2-iain-1/index.html (+3ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-20-army-ants-2/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-21-fish-democracy/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-22-fish-democracy-2/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-22-fish-democracy-3/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-23-iain-2/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-3-flock-of-birds/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-4-synchronization/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-5-bees/index.html (+3ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-6-fish/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-7-ant-mill/index.html (+1ms) 
+20:48:05   ├─ /lectures/lecture-11/slides/slide-8-flockn-roll/index.html (+2ms) 
+20:48:05   └─ /lectures/lecture-11/slides/slide-9-three-states/index.html (+3ms) 
+20:48:05 ▶ src/pages/lectures/[lecture]/slides/index.astro
+20:48:05   ├─ /lectures/lecture-1/slides/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-2/slides/index.html (+4ms) 
+20:48:05   ├─ /lectures/lecture-10/slides/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-3/slides/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-4/slides/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-5/slides/index.html (+3ms) 
+20:48:05   ├─ /lectures/lecture-6/slides/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-7/slides/index.html (+2ms) 
+20:48:05   ├─ /lectures/lecture-9/slides/index.html (+3ms) 
+20:48:05   ├─ /lectures/lecture-8/slides/index.html (+5ms) 
+20:48:05   └─ /lectures/lecture-11/slides/index.html (+2ms) 
+20:48:05 ▶ src/pages/lectures/[lecture].astro
+20:48:05   └─ /lectures/lecture-1/index.html (+2ms) 
+20:48:05 ▶ src/pages/lectures/index.astro
+20:48:05   └─ /lectures/index.html (+2ms) 
+20:48:05 λ src/pages/rss.xml.js
+20:48:05   └─ /rss.xml (+2ms) 
+20:48:05 ▶ src/pages/tutorials/[id].astro
+20:48:05   ├─ /tutorials/stochastic-processes/index.html (+72ms) 
+20:48:05   └─ /tutorials/kuramoto-model/index.html (+52ms) 
+20:48:05 ▶ src/pages/tutorials/index.astro
+20:48:05   └─ /tutorials/index.html (+2ms) 
+20:48:05 ▶ src/pages/[...id].astro
+20:48:05 [WARN] [build] Could not render `/blog` from route `/[...id]` as it conflicts with higher priority route `/blog`.
+20:48:05 [WARN] [build] Could not render `/exam` from route `/[...id]` as it conflicts with higher priority route `/exam`.
+20:48:05 [WARN] [build] Could not render `/tutorials` from route `/[...id]` as it conflicts with higher priority route `/tutorials`.
+20:48:05 [WARN] [build] Could not render `/lab` from route `/[...id]` as it conflicts with higher priority route `/lab`.
+20:48:05 [WARN] [build] Could not render `/lectures` from route `/[...id]` as it conflicts with higher priority route `/lectures`.
+20:48:05   ├─ /contact/index.html (+5ms) 
+20:48:05   ├─ /index.html (+2ms) 
+20:48:05   ├─ /seminar/index.htmlLoaded seminar data: [
+  {
+    explorable: 'Horde of the Flies',
+    topic: 'The Vicsek-Model',
+    link: 'https://www.complexity-explorables.org/explorables/horde-of-the-flies/',
+    student: undefined,
+    date: undefined,
+    presentation: undefined
+  },
+  {
+    explorable: 'Spin Wheels',
+    topic: 'Phase-coupled oscillators on a lattice',
+    link: 'https://www.complexity-explorables.org/explorables/spin-wheels/',
+    student: undefined,
+    date: undefined,
+    presentation: undefined
+  },
+  {
+    explorable: 'Eigenartig',
+    topic: 'The spatial hypercycle model',
+    link: 'https://www.complexity-explorables.org/explorables/eigenartig/',
+    student: undefined,
+    date: undefined,
+    presentation: undefined
+  },
+  {
+    explorable: 'Come Together',
+    topic: 'Chemotaxis in Dictyostelium discoideum',
+    link: 'https://www.complexity-explorables.org/explorables/come-together/',
+    student: undefined,
+    date: undefined,
+    presentation: undefined
+  },
+  {
+    explorable: 'Critically Inflammatory',
+    topic: 'A forrest fire model',
+    link: 'https://www.complexity-explorables.org/explorables/critically-inflammatory/',
+    student: undefined,
+    date: undefined,
+    presentation: undefined
+  },
+  {
+    explorable: 'Dr. Fibryll & Mr. Glyde',
+    topic: 'Pulse-coupled oscillators',
+    link: 'https://www.complexity-explorables.org/explorables/dr-fibryll-and-mr-glyde/',
+    student: undefined,
+    date: undefined,
+    presentation: undefined
+  },
+  {
+    explorable: 'Facebooked Flu Shots',
+    topic: 'Network vaccination',
+    link: 'https://www.complexity-explorables.org/explorables/facebooked-flu-shots/',
+    student: undefined,
+    date: undefined,
+    presentation: undefined
+  },
+  {
+    explorable: "Scott's World*",
+    topic: 'Microbial growth patterns',
+    link: 'https://www.complexity-explorables.org/explorables/scotts-world/',
+    student: undefined,
+    date: undefined,
+    presentation: undefined
+  },
+  {
+    explorable: 'Ride my Kuramotocycle!',
+    topic: 'The Kuramoto model',
+    link: 'https://www.complexity-explorables.org/explorables/ride-my-kuramotocycle/',
+    student: undefined,
+    date: undefined,
+    presentation: undefined
+  },
+  {
+    explorable: 'A Patchwork Darwinge',
+    topic: 'Evolution: Variation and Selection',
+    link: 'https://www.complexity-explorables.org/explorables/a-patchwork-darwinge/',
+    student: undefined,
+    date: undefined,
+    presentation: undefined
+  },
+  {
+    explorable: 'Into the Dark',
+    topic: 'Collective intelligence',
+    link: 'https://www.complexity-explorables.org/explorables/into-the-dark/',
+    student: undefined,
+    date: undefined,
+    presentation: undefined
+  },
+  {
+    explorable: "Barista's Secret",
+    topic: 'Percolation on a lattice',
+    link: 'https://www.complexity-explorables.org/explorables/baristas-secret/',
+    student: undefined,
+    date: undefined,
+    presentation: undefined
+  },
+  {
+    explorable: 'Lotka Martini',
+    topic: 'The Lotka-Volterra model',
+    link: 'https://www.complexity-explorables.org/explorables/lotka-martini/',
+    student: undefined,
+    date: undefined,
+    presentation: undefined
+  },
+  {
+    explorable: 'Critical HexSIRSize',
+    topic: 'The stochastic, spatial SIRS model',
+    link: 'https://www.complexity-explorables.org/explorables/critical-hexsirsize/',
+    student: undefined,
+    date: undefined,
+    presentation: undefined
+  },
+  {
+    explorable: "Flock'n Roll",
+    topic: 'Collective behavior and swarming',
+    link: 'https://www.complexity-explorables.org/explorables/flockn-roll/',
+    student: undefined,
+    date: undefined,
+    presentation: undefined
+  },
+  {
+    explorable: 'Cycledelic',
+    topic: 'The spatial rock-paper-scissors game',
+    link: 'https://www.complexity-explorables.org/explorables/cycledelic/',
+    student: undefined,
+    date: undefined,
+    presentation: undefined
+  },
+  {
+    explorable: 'Epidemonic',
+    topic: 'The SIRS epidemic model',
+    link: 'https://www.complexity-explorables.org/explorables/epidemonic/',
+    student: undefined,
+    date: undefined,
+    presentation: undefined
+  }
+]
+ (+3ms) 
+20:48:05   ├─ /tldr/index.html (+2ms) 
+20:48:05   └─ /terms/index.html (+1ms) 
+20:48:05 ✓ Completed in 2.00s.
+
+ generating optimized images 
+20:48:05   ▶ /_astro/complicated_transparent.BCCZnfVl_ZNeAYv.webp (reused cache entry) (+14ms) (1/208)
+20:48:05   ▶ /_astro/complexityexplorables_dark.Dm9T8_D2_ZRdXFh.webp (reused cache entry) (+14ms) (2/208)
+20:48:05   ▶ /_astro/complexity_dark.B0V68DXw_18iIf4.webp (reused cache entry) (+16ms) (3/208)
+20:48:05   ▶ /_astro/rolling_die_transparent.DX8pYLcY_Z1lJdiS.webp (reused cache entry) (+18ms) (4/208)
+20:48:05   ▶ /_astro/rolling_die_dark.DPa3JOq-_p6jko.webp (reused cache entry) (+18ms) (5/208)
+20:48:05   ▶ /_astro/complexity_transparent.14jM5YzW_ZRrfCT.webp (reused cache entry) (+18ms) (6/208)
+20:48:05   ▶ /_astro/complicated_dark.DDKncAvp_QU5EK.webp (reused cache entry) (+18ms) (7/208)
+20:48:05   ▶ /_astro/firefly_transparent.BIie9EOD_2dMM43.webp (reused cache entry) (+18ms) (8/208)
+20:48:05   ▶ /_astro/firefly_dark.dbU2fASj_1vWvmQ.webp (reused cache entry) (+18ms) (9/208)
+20:48:05   ▶ /_astro/complexityexplorables_transparent.BZfhNU2t_Z26gWmr.webp (reused cache entry) (+19ms) (10/208)
+20:48:05   ▶ /_astro/crises.BWDFHXvj_Jxtrk.webp (reused cache entry) (+1ms) (11/208)
+20:48:05   ▶ /_astro/cellphone.Bwi0wsEU_1Y05xX.webp (reused cache entry) (+1ms) (12/208)
+20:48:05   ▶ /_astro/feynman.DShRzIeq_ZbXmeY.webp (reused cache entry) (+1ms) (13/208)
+20:48:05   ▶ /_astro/hawking.bNIAL6IC_2uDKF7.webp (reused cache entry) (+1ms) (14/208)
+20:48:05   ▶ /_astro/reductionism_dark.DotRnn2x_1qBr6F.webp (reused cache entry) (+2ms) (15/208)
+20:48:05   ▶ /_astro/smiley_transparent.BGir_kxE_21RY7U.webp (reused cache entry) (+2ms) (16/208)
+20:48:05   ▶ /_astro/reductionism_transparent.DtxcDCjL_Z2o6Q8f.webp (reused cache entry) (+2ms) (17/208)
+20:48:05   ▶ /_astro/smiley_dark.oNG-gTVn_ZbXWKE.webp (reused cache entry) (+2ms) (18/208)
+20:48:05   ▶ /_astro/roads_to_rome.DAQZ_2Lm_BzxL7.webp (reused cache entry) (+1ms) (19/208)
+20:48:05   ▶ /_astro/tree_roots.Dxp8VueB_ZOF6eT.webp (reused cache entry) (+1ms) (20/208)
+20:48:05   ▶ /_astro/metronomes_transparent.BDDy9Ows_1xgg0j.webp (reused cache entry) (+1ms) (21/208)
+20:48:05   ▶ /_astro/picasso.6y_niwQC_2cAKz5.webp (reused cache entry) (+2ms) (22/208)
+20:48:05   ▶ /_astro/network_transparent.C1nBUOSK_ZN2A3F.webp (reused cache entry) (+1ms) (23/208)
+20:48:05   ▶ /_astro/doppel_pendel_transparent.CopPCo5H_1BThBs.webp (reused cache entry) (+2ms) (24/208)
+20:48:05   ▶ /_astro/metronomes_dark.DgdGm5wZ_ZGDLAF.webp (reused cache entry) (+1ms) (25/208)
+20:48:05   ▶ /_astro/network_dark.COk_-X04_Z1ttiLq.webp (reused cache entry) (+2ms) (26/208)
+20:48:05   ▶ /_astro/doppel_pendel_dark.B4oLcJEm_ZCD0J8.webp (reused cache entry) (+2ms) (27/208)
+20:48:05   ▶ /_astro/sandpile_transparent.CSNEKkoD_Z2rfV8o.webp (reused cache entry) (+2ms) (28/208)
+20:48:05   ▶ /_astro/sandpile_dark.BH58m2eZ_ZlBgGA.webp (reused cache entry) (+1ms) (29/208)
+20:48:05   ▶ /_astro/swarm_dark.CIMdFWqC_Z5pvYg.webp (reused cache entry) (+1ms) (30/208)
+20:48:05   ▶ /_astro/swarm_transparent.CyeTnmmn_1O7isG.webp (reused cache entry) (+1ms) (31/208)
+20:48:05   ▶ /_astro/pattern_dark.CwyoQFPe_Z3JTSq.webp (reused cache entry) (+1ms) (32/208)
+20:48:05   ▶ /_astro/pattern_transparent.CGczFtWQ_ZLKHQi.webp (reused cache entry) (+1ms) (33/208)
+20:48:05   ▶ /_astro/aquid_transparent.B2l4H4iL_1WbgRT.webp (reused cache entry) (+1ms) (34/208)
+20:48:05   ▶ /_astro/fractal_transparent.CzC91_ph_ZJ8uAk.webp (reused cache entry) (+1ms) (35/208)
+20:48:05   ▶ /_astro/aquid_dark.BC2ZyikX_Z1Szsu9.webp (reused cache entry) (+1ms) (36/208)
+20:48:05   ▶ /_astro/fractal_dark.CxHU15pX_Z1xgMaI.webp (reused cache entry) (+2ms) (37/208)
+20:48:05   ▶ /_astro/facebook_diameter.B3UPMDwa_ZdICNT.webp (reused cache entry) (+1ms) (38/208)
+20:48:05   ▶ /_astro/eiffeltower2.BCsetfgW_1WYaKa.webp (reused cache entry) (+1ms) (39/208)
+20:48:05   ▶ /_astro/milgram.D3Ew7Prz_ZEw012.webp (reused cache entry) (+2ms) (40/208)
+20:48:05   ▶ /_astro/facebook.OB8EsP_V_wV57r.webp (reused cache entry) (+2ms) (41/208)
+20:48:05   ▶ /_astro/small_network.Kl5z4orT_zfa5s.webp (reused cache entry) (+1ms) (42/208)
+20:48:05   ▶ /_astro/treefrog.CGt-g7u2_Z1OTX5k.webp (reused cache entry) (+2ms) (43/208)
+20:48:05   ▶ /_astro/scalefreenetworks.CoA5S1Mk_1IQjmx.webp (reused cache entry) (+1ms) (44/208)
+20:48:05   ▶ /_astro/earth.C7lrbaCg_Z1uer7y.webp (reused cache entry) (+1ms) (45/208)
+20:48:05   ▶ /_astro/italian_families.Crz39PXE_ZATnp8.webp (reused cache entry) (+1ms) (46/208)
+20:48:05   ▶ /_astro/eel2.D8lLmXi-_2jKO1D.webp (reused cache entry) (+1ms) (47/208)
+20:48:05   ▶ /_astro/emergence_scaling_paper.CCuEvDrC_Z1W7qaj.webp (reused cache entry) (+2ms) (48/208)
+20:48:05   ▶ /_astro/cidada_transparent.DaucCUux_Z16mTIl.webp (reused cache entry) (+1ms) (49/208)
+20:48:05   ▶ /_astro/eel1.C0--aXbR_11XqPF.webp (reused cache entry) (+2ms) (50/208)
+20:48:05   ▶ /_astro/cidada_dark.xKp4kojo_Z1DYOh6.webp (reused cache entry) (+1ms) (51/208)
+20:48:05   ▶ /_astro/lightbug_transparent.B6NO_V6W_1kgis9.webp (reused cache entry) (+1ms) (52/208)
+20:48:05   ▶ /_astro/lightbug_dark.Bm3dJa3T_ZinDaJ.webp (reused cache entry) (+1ms) (53/208)
+20:48:05   ▶ /_astro/cicada_map.C55I8oEy_ZFy46y.webp (reused cache entry) (+1ms) (54/208)
+20:48:05   ▶ /_astro/magicicada.DlgzD5-S_Z2rHvFx.webp (reused cache entry) (+3ms) (55/208)
+20:48:05   ▶ /_astro/schwalbe.BvEMA5FI_ZxkhBv.webp (reused cache entry) (+6ms) (56/208)
+20:48:05   ▶ /_astro/pascal3.DkSuMCEm_QBzJ5.webp (reused cache entry) (+4ms) (57/208)
+20:48:05   ▶ /_astro/neuron2_transparent.D__08tJi_2pHpcg.webp (reused cache entry) (+4ms) (58/208)
+20:48:05   ▶ /_astro/pascal1.Bas6FJEp_23lt3e.webp (reused cache entry) (+7ms) (59/208)
+20:48:05   ▶ /_astro/pascal2.BuGDvJG4_1GQjPE.webp (reused cache entry) (+7ms) (60/208)
+20:48:05   ▶ /_astro/heart2_transparent.B73spl--_1zF90K.webp (reused cache entry) (+7ms) (61/208)
+20:48:05   ▶ /_astro/paper_bridge3.Bcc6Ipu8_1FKFXh.webp (reused cache entry) (+6ms) (62/208)
+20:48:05   ▶ /_astro/manyo_transparent.wWWCLr_D_Z1HnKxK.webp (reused cache entry) (+1ms) (63/208)
+20:48:05   ▶ /_astro/manyo_dark.Buixt5RF_2jnkH1.webp (reused cache entry) (+1ms) (64/208)
+20:48:05   ▶ /_astro/heart2_dark.C61SiG5r_Zke850.webp (reused cache entry) (+7ms) (65/208)
+20:48:05   ▶ /_astro/bigo_transparent.CgOlHa7__2vEiSD.webp (reused cache entry) (+1ms) (66/208)
+20:48:05   ▶ /_astro/bigo_dark.cGAgVKPV_1EbcyB.webp (reused cache entry) (+1ms) (67/208)
+20:48:05   ▶ /_astro/pascal4.gSBb3FRG_Z1lMIOg.webp (reused cache entry) (+8ms) (68/208)
+20:48:05   ▶ /_astro/paper_bridge2.BNOTVCqt_ZCbqG6.webp (reused cache entry) (+1ms) (69/208)
+20:48:05   ▶ /_astro/paper_bridge.DeK9r-dM_ZlbH6a.webp (reused cache entry) (+1ms) (70/208)
+20:48:05   ▶ /_astro/huygens_transparent.CvziYEq5_ZQkEiO.webp (reused cache entry) (+2ms) (71/208)
+20:48:05   ▶ /_astro/huygensclock_transparent.DB2LHxry_1jHapj.webp (reused cache entry) (+1ms) (72/208)
+20:48:05   ▶ /_astro/huygensclock_dark.D2PDy_UI_Z6X9eC.webp (reused cache entry) (+1ms) (73/208)
+20:48:05   ▶ /_astro/per_bak.DVOytWsI_1DE9BN.webp (reused cache entry) (+1ms) (74/208)
+20:48:05   ▶ /_astro/huygens.DjRgOFb2_Z1bmd2q.webp (reused cache entry) (+1ms) (75/208)
+20:48:05   ▶ /_astro/covid_transparent.BfMVAq7j_ZLXrcf.webp (reused cache entry) (+2ms) (76/208)
+20:48:05   ▶ /_astro/kim_sneppen.CJyJ2COU_ZHbjta.webp (reused cache entry) (+1ms) (77/208)
+20:48:05   ▶ /_astro/bak_book.CZZ4OtPV_17duT8.webp (reused cache entry) (+1ms) (78/208)
+20:48:05   ▶ /_astro/tippingpoint_transparent.C_QtIspk_1VgTUz.webp (reused cache entry) (+1ms) (79/208)
+20:48:05   ▶ /_astro/tippingpoint_dark.ZL6LnCyI_Nt4SB.webp (reused cache entry) (+1ms) (80/208)
+20:48:05   ▶ /_astro/covid_dark.DYf-zMm9_Gjquq.webp (reused cache entry) (+2ms) (81/208)
+20:48:05   ▶ /_astro/species_size_transparent.Bqh89Tlm_uphJd.webp (reused cache entry) (+1ms) (82/208)
+20:48:05   ▶ /_astro/species_size_dark.B_OJZwU0_ZC4OQH.webp (reused cache entry) (+1ms) (83/208)
+20:48:05   ▶ /_astro/avalanche_transparent.WAPeNdtn_Z8MH8O.webp (reused cache entry) (+1ms) (84/208)
+20:48:05   ▶ /_astro/avalanche_dark.PGsZ60Gj_1Bbbp.webp (reused cache entry) (+1ms) (85/208)
+20:48:05   ▶ /_astro/terror_transparent.KgPPDR9H_sthiY.webp (reused cache entry) (+2ms) (86/208)
+20:48:05   ▶ /_astro/terror_dark.BsIg1VtQ_Z1s3g6C.webp (reused cache entry) (+2ms) (87/208)
+20:48:05   ▶ /_astro/earthquakes_transparent.BgQ5VEFl_1SEXUP.webp (reused cache entry) (+2ms) (88/208)
+20:48:05   ▶ /_astro/earthquakes_dark.DCRFDwcR_1KrMJX.webp (reused cache entry) (+2ms) (89/208)
+20:48:05   ▶ /_astro/punctuated.BEoToUtS_Z1B0oao.webp (reused cache entry) (+1ms) (90/208)
+20:48:05   ▶ /_astro/humansize_transparent.62yqvJZH_JjGLm.webp (reused cache entry) (+1ms) (91/208)
+20:48:05   ▶ /_astro/humansize_dark.zoeGSXiz_2dS6iP.webp (reused cache entry) (+1ms) (92/208)
+20:48:05   ▶ /_astro/west_book.ChRDAmmx_Z25MdYR.webp (reused cache entry) (+1ms) (93/208)
+20:48:05   ▶ /_astro/sand1.DNPgeCzQ_Z15ECJE.webp (reused cache entry) (+1ms) (94/208)
+20:48:05   ▶ /_astro/sand2.DHqkuatz_KAKnr.webp (reused cache entry) (+1ms) (95/208)
+20:48:05   ▶ /_astro/klaus_transparent.CNKXft2Y_Z2sQwyQ.webp (reused cache entry) (+3ms) (96/208)
+20:48:05   ▶ /_astro/geoffrey_west.C8jqctO8_Cy0lC.webp (reused cache entry) (+4ms) (97/208)
+20:48:05   ▶ /_astro/klaus_dark.CaLRBdtd_ZLnE6p.webp (reused cache entry) (+3ms) (98/208)
+20:48:05   ▶ /_astro/morning_glory.kpqh_PGq_11ewFa.webp (reused cache entry) (+7ms) (99/208)
+20:48:05   ▶ /_astro/brain.BtR-qlwb_ZKALQQ.webp (reused cache entry) (+7ms) (100/208)
+20:48:05   ▶ /_astro/romanesco.B-FqnvUi_Z21QifF.webp (reused cache entry) (+7ms) (101/208)
+20:48:05   ▶ /_astro/river.L1CuAJe3_Z28aeKC.webp (reused cache entry) (+8ms) (102/208)
+20:48:05   ▶ /_astro/snails.CPbxohiZ_Z2o7oTB.webp (reused cache entry) (+5ms) (103/208)
+20:48:05   ▶ /_astro/fur.CTqKQhqQ_ZSQsGx.webp (reused cache entry) (+6ms) (104/208)
+20:48:05   ▶ /_astro/ocular2.QoJDXshc_Z1xPEez.webp (reused cache entry) (+7ms) (105/208)
+20:48:05   ▶ /_astro/orientation.N4EPWOc4_Z2jHJvO.webp (reused cache entry) (+7ms) (106/208)
+20:48:05   ▶ /_astro/shellbook.COPfGEgW_Z1NptB2.webp (reused cache entry) (+6ms) (107/208)
+20:48:05   ▶ /_astro/bz2.U3Z0te8T_18pYMV.webp (reused cache entry) (+1ms) (108/208)
+20:48:05   ▶ /_astro/bz1.DPDWXKRp_1DMRy0.webp (reused cache entry) (+1ms) (109/208)
+20:48:05   ▶ /_astro/gene1.CnPGyu9g_Z1fY4Uw.webp (reused cache entry) (+1ms) (110/208)
+20:48:05   ▶ /_astro/dicty.1R_UomGY_HqUGt.webp (reused cache entry) (+1ms) (111/208)
+20:48:05   ▶ /_astro/bat_embryo.DSPbz_ao_1DcH4x.webp (reused cache entry) (+1ms) (112/208)
+20:48:05   ▶ /_astro/digits.BHomV6nM_vrBuC.webp (reused cache entry) (+1ms) (113/208)
+20:48:05   ▶ /_astro/gene2.Dbqv3bQp_Z2vXaka.webp (reused cache entry) (+1ms) (114/208)
+20:48:05   ▶ /_astro/whale_transparent.C_Q0Vbdz_Z2rd3SC.webp (reused cache entry) (+1ms) (115/208)
+20:48:05   ▶ /_astro/whale_dark.BWisam5S_1n5dIX.webp (reused cache entry) (+1ms) (116/208)
+20:48:05   ▶ /_astro/brain.DHpE9uDg_Glgd6.webp (reused cache entry) (+1ms) (117/208)
+20:48:05   ▶ /_astro/foodweb.CGr0Tts6_Z1CmBQ9.webp (reused cache entry) (+2ms) (118/208)
+20:48:05   ▶ /_astro/embryo_dark.CnyC3zMf_1DbmDW.webp (reused cache entry) (+2ms) (119/208)
+20:48:05   ▶ /_astro/embryo_transparent.DJmWjy_7_ZLAJRL.webp (reused cache entry) (+2ms) (120/208)
+20:48:05   ▶ /_astro/tripartite.CNpF3gnb_Z1kc5c7.webp (reused cache entry) (+2ms) (121/208)
+20:48:05   ▶ /_astro/ppi_yeast.DBQZ4oqg_1gaLqQ.webp (reused cache entry) (+3ms) (122/208)
+20:48:05   ▶ /_astro/disease-2.Dhf8XotQ_ZAfMLz.webp (reused cache entry) (+2ms) (123/208)
+20:48:05   ▶ /_astro/disease-3.aI0405PT_Z1D1XUH.webp (reused cache entry) (+1ms) (124/208)
+20:48:05   ▶ /_astro/disease-1.DD9knRpt_ZWrC74.webp (reused cache entry) (+3ms) (125/208)
+20:48:05   ▶ /_astro/c_elegans.TshprXNI_QIYDm.webp (reused cache entry) (+1ms) (126/208)
+20:48:05   ▶ /_astro/homo_sapiens.DROQsLfI_ZFKIUi.webp (reused cache entry) (+2ms) (127/208)
+20:48:05   ▶ /_astro/generegulation.HTQNq1Ki_Z1Mt0rd.webp (reused cache entry) (+2ms) (128/208)
+20:48:05   ▶ /_astro/metabolic.CZ1QQdzD_Z1ueCpg.webp (reused cache entry) (+2ms) (129/208)
+20:48:05   ▶ /_astro/network_science.hJ8Bp3cb_1aKqO8.webp (reused cache entry) (+2ms) (130/208)
+20:48:05   ▶ /_astro/cellphones.DOsN7izB_1VDmCo.webp (reused cache entry) (+1ms) (131/208)
+20:48:05   ▶ /_astro/sunearek.CRKtG5wS_2hDgk6.webp (reused cache entry) (+1ms) (132/208)
+20:48:05   ▶ /_astro/regulatory_network.r8hAYHtP_JRJ00.webp (reused cache entry) (+3ms) (133/208)
+20:48:05   ▶ /_astro/dolphins_table.B8-KOUbc_PTTWg.webp (reused cache entry) (+6ms) (134/208)
+20:48:05   ▶ /_astro/network_nomenclature.BmrVKU7f_2QC99.webp (reused cache entry) (+6ms) (135/208)
+20:48:05   ▶ /_astro/functional_fungi_1.BtoF1z2g_2sb449.webp (reused cache entry) (+6ms) (136/208)
+20:48:05   ▶ /_astro/newman_networks.B0QSI0O7_E9k68.webp (reused cache entry) (+6ms) (137/208)
+20:48:05   ▶ /_astro/symmetric_network.CboG01-0_ZwFN4T.webp (reused cache entry) (+6ms) (138/208)
+20:48:05   ▶ /_astro/koenigsberg_bridges.BzvSxneQ_qkupV.webp (reused cache entry) (+6ms) (139/208)
+20:48:05   ▶ /_astro/directed_network.CDwsThex_Z1nM1zV.webp (reused cache entry) (+5ms) (140/208)
+20:48:05   ▶ /_astro/weighted_network.C09b8bHR_1MNXhQ.webp (reused cache entry) (+5ms) (141/208)
+20:48:05   ▶ /_astro/Netsci.9hc0ElWZ_Z28JABQ.webp (reused cache entry) (+6ms) (142/208)
+20:48:05   ▶ /_astro/tree_network.BVGJgT3Q_1QqMAY.webp (reused cache entry) (+1ms) (143/208)
+20:48:05   ▶ /_astro/acyclic_network.C4tnWB6w_2nTQhf.webp (reused cache entry) (+2ms) (144/208)
+20:48:05   ▶ /_astro/adjacency_matrix.fWPBWM0U_JeKz0.webp (reused cache entry) (+3ms) (145/208)
+20:48:05   ▶ /_astro/linked.llQ0RjjZ_15b2OX.webp (reused cache entry) (+3ms) (146/208)
+20:48:05   ▶ /_astro/scott_chilemsky.CG-reVXz_1b1Ae6.webp (reused cache entry) (+2ms) (147/208)
+20:48:05   ▶ /_astro/laszlo.5uW1F9eK_1Wa4Ef.webp (reused cache entry) (+3ms) (148/208)
+20:48:05   ▶ /_astro/life_at_the_edge_of_sight.B3SAHwNF_ZCGKBH.webp (reused cache entry) (+3ms) (149/208)
+20:48:05   ▶ /_astro/internet.iCUl1xkR_ZYYp4z.webp (reused cache entry) (+4ms) (150/208)
+20:48:05   ▶ /_astro/lichens.C1mmO4P2_2lVc5a.webp (reused cache entry) (+2ms) (151/208)
+20:48:05   ▶ /_astro/eiffeltower.CeHrwVLo_Z1Ac91F.webp (reused cache entry) (+2ms) (152/208)
+20:48:05   ▶ /_astro/scott_fungus.jQoglxEd_Z1UeIJc.webp (reused cache entry) (+2ms) (153/208)
+20:48:05   ▶ /_astro/dla_1.BFO45PCH_ZzvNzu.webp (reused cache entry) (+2ms) (154/208)
+20:48:05   ▶ /_astro/scott_model_1.CwMon78b_Z24UjBc.webp (reused cache entry) (+1ms) (155/208)
+20:48:05   ▶ /_astro/scott_model_2.DTpU9mLA_ZXsf3p.webp (reused cache entry) (+1ms) (156/208)
+20:48:05   ▶ /_astro/scott_model_3.B4kr9huH_166VkC.webp (reused cache entry) (+1ms) (157/208)
+20:48:05   ▶ /_astro/string_transparent.C3iuWmzn_19glIJ.webp (reused cache entry) (+1ms) (158/208)
+20:48:05   ▶ /_astro/dla_2.DbtiJQ14_Z17zb0v.webp (reused cache entry) (+2ms) (159/208)
+20:48:05   ▶ /_astro/dla_3.CGSbE3KQ_Zkd5i0.webp (reused cache entry) (+2ms) (160/208)
+20:48:05   ▶ /_astro/line_2_transparent.aBkSd5CV_Z29VsLk.webp (reused cache entry) (+3ms) (161/208)
+20:48:05   ▶ /_astro/line_3_transparent.C1cipR32_Z2kg4sA.webp (reused cache entry) (+3ms) (162/208)
+20:48:05   ▶ /_astro/sheet_transparent.Cohu2RvV_qjpMz.webp (reused cache entry) (+3ms) (163/208)
+20:48:05   ▶ /_astro/bottle_transparent.DTqkgfqS_nFFsr.webp (reused cache entry) (+3ms) (164/208)
+20:48:05   ▶ /_astro/line_1_transparent.CGgRjxAK_Z5YqBg.webp (reused cache entry) (+4ms) (165/208)
+20:48:05   ▶ /_astro/bottle_1_transparent.SayGwEOx_2miFMT.webp (reused cache entry) (+4ms) (166/208)
+20:48:05   ▶ /_astro/sheet_1_transparent.Dxhg6ubi_ZkYA8h.webp (reused cache entry) (+4ms) (167/208)
+20:48:05   ▶ /_astro/bottle_2_transparent.DNGkBJXb_Z12Hotb.webp (reused cache entry) (+4ms) (168/208)
+20:48:05   ▶ /_astro/sheet_2_transparent.BJCm4p6C_18EtM0.webp (reused cache entry) (+4ms) (169/208)
+20:48:05   ▶ /_astro/UK_coast.aEBk7zVr_1K2hib.webp (reused cache entry) (+2ms) (170/208)
+20:48:05   ▶ /_astro/UK.BSsZG-Cq_ZHkHMQ.webp (reused cache entry) (+5ms) (171/208)
+20:48:05   ▶ /_astro/mandelbrot.B8pKgdu9_Z2aJVVB.webp (reused cache entry) (+3ms) (172/208)
+20:48:05   ▶ /_astro/mandelbrot_book.BDLk18BG_Z2yAtO.webp (reused cache entry) (+3ms) (173/208)
+20:48:05   ▶ /_astro/mandelbrot_set.DlO_fB1P_P2cnc.webp (reused cache entry) (+1ms) (174/208)
+20:48:05   ▶ /_astro/koch_length_0._MiaJCzg_1UR41C.webp (reused cache entry) (+1ms) (175/208)
+20:48:05   ▶ /_astro/mandelbrot_paper.DiEuLbXg_Z1Ul53n.webp (reused cache entry) (+4ms) (176/208)
+20:48:05   ▶ /_astro/river2.BepgqveP_ZwFyjO.webp (reused cache entry) (+2ms) (177/208)
+20:48:05   ▶ /_astro/koch_length_1.yQ9i9RaH_ZI3zVH.webp (reused cache entry) (+2ms) (178/208)
+20:48:05   ▶ /_astro/koch_length_2.DwZKJu8p_Z1syOGt.webp (reused cache entry) (+1ms) (179/208)
+20:48:05   ▶ /_astro/koch_length_3.DNVSKys1_f44pn.webp (reused cache entry) (+1ms) (180/208)
+20:48:05   ▶ /_astro/koch_length_4.D4MAF2TW_1P56eL.webp (reused cache entry) (+1ms) (181/208)
+20:48:05   ▶ /_astro/nautilus.C16LQ92x_Z2uRpcx.webp (reused cache entry) (+1ms) (182/208)
+20:48:05   ▶ /_astro/cactus.CTK8QbM__Z1VB0PY.webp (reused cache entry) (+2ms) (183/208)
+20:48:05   ▶ /_astro/romanesco_2.DghhUwvr_Z2dW7Fe.webp (reused cache entry) (+2ms) (184/208)
+20:48:05   ▶ /_astro/fern.C9X4i1Y-_Z24pGoE.webp (reused cache entry) (+2ms) (185/208)
+20:48:05   ▶ /_astro/bacterial_growth.COwXuFU__kXhs5.webp (reused cache entry) (+2ms) (186/208)
+20:48:05   ▶ /_astro/people_swarm_paper.C5acBuXd_ZVjKtd.webp (reused cache entry) (+2ms) (187/208)
+20:48:05   ▶ /_astro/people_swarm.DyrgfXQO_1IcgNq.webp (reused cache entry) (+2ms) (188/208)
+20:48:05   ▶ /_astro/obstacles.IDyblKaM_ak68b.webp (reused cache entry) (+2ms) (189/208)
+20:48:05   ▶ /_astro/eshel_paper.rDasPkB0_1WL4o7.webp (reused cache entry) (+3ms) (190/208)
+20:48:05   ▶ /_astro/army_ants_experiment.BmSfzPTW_ZBGmlR.webp (reused cache entry) (+1ms) (191/208)
+20:48:05   ▶ /_astro/eshel_model.EaWA2rwE_ZnkHJ8.webp (reused cache entry) (+3ms) (192/208)
+20:48:05   ▶ /_astro/fishtank.CPDQg_DX_Z2wBoiD.webp (reused cache entry) (+3ms) (193/208)
+20:48:05   ▶ /_astro/fishgroup.BJSoCAV1_1CG1VX.webp (reused cache entry) (+5ms) (194/208)
+20:48:05   ▶ /_astro/minority_report.0NvkLoGb_Z22i0bo.webp (reused cache entry) (+5ms) (195/208)
+20:48:05   ▶ /_astro/three_states_2.ZAW45svp_25cF7R.webp (reused cache entry) (+5ms) (196/208)
+20:48:05   ▶ /_astro/army_ants_paper.BmYAASZ9_1UcA91.webp (reused cache entry) (+7ms) (197/208)
+20:48:05   ▶ /_astro/three_states_1.Rb_3BzFW_ZjMJ4Q.webp (reused cache entry) (+6ms) (198/208)
+20:48:05   ▶ /_astro/wc_transparent.BaEFI010_Z1PfS3d.webp (reused cache entry) (+1ms) (199/208)
+20:48:05   ▶ /_astro/wc_dark.88rGflik_ZLjBXy.webp (reused cache entry) (+1ms) (200/208)
+20:48:05   ▶ /_astro/kuraf1_transparent.2n7qXc3i_Z22IiKs.webp (reused cache entry) (+1ms) (201/208)
+20:48:05   ▶ /_astro/metro_transparent.zHHZg8_w_Z1SoBUF.webp (reused cache entry) (+6ms) (202/208)
+20:48:05   ▶ /_astro/kuraf1_dark.Dkn1RQUz_2lKUsU.webp (reused cache entry) (+1ms) (203/208)
+20:48:05   ▶ /_astro/kuraf2_transparent.CrAiMEb1_mBMs1.webp (reused cache entry) (+1ms) (204/208)
+20:48:05   ▶ /_astro/metro_dark.YzYZltI0_Zjwnaz.webp (reused cache entry) (+2ms) (205/208)
+20:48:05   ▶ /_astro/dirk_dark.DmQZtlIC_1qodn.webp (reused cache entry) (+1ms) (206/208)
+20:48:05   ▶ /_astro/dirk_transparent.DicHreRB_23lJ3Q.webp (reused cache entry) (+2ms) (207/208)
+20:48:05   ▶ /_astro/kuraf2_dark.CUtwuMFI_1hEEnD.webp (reused cache entry) (+2ms) (208/208)
+20:48:05 ✓ Completed in 78ms.
+
+20:48:05 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+20:48:05 [build] 304 page(s) built in 22.79s
+20:48:05 [build] Complete!
